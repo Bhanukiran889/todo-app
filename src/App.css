@@ -10,3 +10,61 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f1f5f9;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.input-section button {
+  padding: 8px 14px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.list-container {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.list-item p {
+  flex: 1;
+  margin: 0;
+}
+
+.list-item input[type='text'] {
+  flex: 1;
+  padding: 6px;
+}
