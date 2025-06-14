@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  color: #ff0b37;
+  border-radius: 10px;
+  border-style: solid;
+}
